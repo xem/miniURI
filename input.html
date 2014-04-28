@@ -1,1 +1,1 @@
-<input onchange="(r=new FileReader).readAsDataURL(files[0]);r.onload=function(){outerHTML='<pre>'+r.result}"type=file>
+<input onchange="with(new FileReader)readAsDataURL(files[0]),onload=function(){outerHTML='<pre>'+result}"type=file>
